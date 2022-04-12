@@ -1,0 +1,18 @@
+
+
+
+
+.row{
+    background-color: /*rgb(202, 139, 45)*/#eee;
+    border-radius: 30px;
+    border:1px solid #eee;
+}
+img{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:5px 5px 5px 5px ;
+    margin-top: 70px;
+    margin-left: 30px;   
+}
