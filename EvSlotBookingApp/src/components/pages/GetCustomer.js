@@ -63,8 +63,8 @@ export default class GetCustomer extends Component {
                             <th scope="col">City</th>
                             <th scope="col">Login_id</th>
                             <th scope="col">Pancard</th>
-                            {/* <th scope ="col"> Consumer Number </th>   */}
-                            {/* <th scope="col">Operation</th>           */}
+                            {/* <th scope ="col"> Consumer Number </th> */}
+                            <th scope="col">Operation</th>    
                         </tr>
                     </thead>
                     <tbody>
@@ -80,7 +80,7 @@ export default class GetCustomer extends Component {
                                 <td> {obj.login_tbl.login_id} </td>
                                 <td> {obj.pancard} </td>
                                 {/* <td> {obj.consumer} </td> */}
-                                {/* <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Delete</Button></td> */}
+                                <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Delete</Button></td>
                              </tr>
 
                         ))}

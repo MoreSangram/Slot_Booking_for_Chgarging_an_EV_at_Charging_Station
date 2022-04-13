@@ -33,7 +33,7 @@ export default class Complaint extends Component {
                         <th>Complaints ID</th>
                         <th>Customer ID</th>
                         <th>Complaint Date</th>
-                        {/* <th>Status</th> */}
+                        {/* <th>Status</th>  */}
                         <th>Complaint Description</th>
                                     
                     </tr>

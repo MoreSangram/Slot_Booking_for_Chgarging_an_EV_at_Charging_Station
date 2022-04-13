@@ -65,7 +65,7 @@ export default class CustomerProfile extends Component {
                             <th>Login_id</th>
                             <th>Pancard</th>
                             {/* <th>Consumer Number </th>   */}
-                            {/* <th>Operation</th>           */}
+                            <th>Operation</th>
                         </tr>
                     </thead>
                     {customer.map(obj =>(
@@ -79,8 +79,8 @@ export default class CustomerProfile extends Component {
                                 <td> {obj.city}   </td>
                                 <td> {obj.login_tbl.login_id} </td>
                                 <td> {obj.pancard} </td>
-                                {/* <td> {obj.consumer} </td> */}
-                                {/* <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td> */}
+                                 {/* <td> {obj.consumer} </td> */}
+                                <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td>
                              </tr>
 
                         ))}

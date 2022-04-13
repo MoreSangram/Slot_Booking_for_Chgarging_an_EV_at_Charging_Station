@@ -63,6 +63,7 @@ export default class BookHistory extends Component {
                             <th>Charging end time</th>
                             <th>Vehicle No.</th>
                             <th>payment_mode</th>
+                            <th>Operation</th>
                                       
                         </tr>
                     </thead>
@@ -77,7 +78,7 @@ export default class BookHistory extends Component {
                                 <td> {obj.vid} </td>
                                 <td> {obj.payment_mode} </td>
                                 
-                                {/* <td> <Button className="info" onClick={()=>this.props.deleteBooking(obj.cid)}>Cancel Booking</Button></td> */}
+                                { <td> <Button className="info" onClick={()=>this.props.deleteBooking(obj.cid)}>Cancel Booking</Button></td> }
                              </tr>
 
                         ))}

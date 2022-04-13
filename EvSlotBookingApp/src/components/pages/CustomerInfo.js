@@ -61,6 +61,7 @@ export default class CustomerInfo extends Component {
                             <th>Address</th>
                             <th>City</th>
                             <th>Contact</th>
+                            <th>Operation</th>
                                       
                         </tr>
                     </thead>
@@ -73,7 +74,7 @@ export default class CustomerInfo extends Component {
                                 <td> {obj.city} </td>
                                 <td> {obj.contact} </td>
                                 
-                                {/* <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td> */}
+                                <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td> 
                              </tr>
 
                         ))}

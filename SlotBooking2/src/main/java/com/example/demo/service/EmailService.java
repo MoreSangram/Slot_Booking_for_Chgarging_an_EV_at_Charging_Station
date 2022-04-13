@@ -12,10 +12,10 @@ public class EmailService {
 
 	 public  void sendEmailForNewRegistration(String email) {
 		SimpleMailMessage message = new SimpleMailMessage(); 
-      message.setFrom("sushantj779@gmail.com");
+      message.setFrom("slotbooking3264@gmail.com");
       message.setTo(email); 
       message.setSubject("Thank you for Registering with us!"); 
-      message.setText("Thank you for Registering with us!");
+      message.setText("Thank you for Registering with us!  Now you can book slot for your vehicle.");
       emailSender.send(message);
 	 }
 

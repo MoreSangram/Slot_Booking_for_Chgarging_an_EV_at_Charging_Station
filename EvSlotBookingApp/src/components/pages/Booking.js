@@ -62,7 +62,8 @@ export default class BookingDetails extends Component {
                             <th>Charging end time</th>
                             <th>Vehicle No.</th>
                             <th>payment_mode</th>
-                                      
+                            <th>Operation</th>
+
                         </tr>
                     </thead>
                     {book.map(obj =>(
@@ -75,7 +76,7 @@ export default class BookingDetails extends Component {
                                 <td> {obj.vid} </td>
                                 <td> {obj.payment_mode} </td>
                                 
-                                {/* <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td> */}
+                                { <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td> }
                              </tr>
 
                         ))}

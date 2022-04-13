@@ -63,10 +63,7 @@ export default class GetDistributer extends Component {
                             <th scope="col">Pancard</th>
                             <th scope="col">Address</th>
                             <th scope="col">City</th>
-                            
-                            
-                           
-                            {/* <th scope="col">Operation</th>           */}
+                            <th scope="col">Operation</th>     
                         </tr>
                     </thead>
                     <tbody>
@@ -83,7 +80,7 @@ export default class GetDistributer extends Component {
                                 <td> {obj.city}   </td>
                                
                                
-                                {/* <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Delete</Button></td> */}
+                                <td> <Button varient="info" onClick={()=>this.props.editCustomer(obj.cid)}>Delete</Button></td>
                              </tr>
 
                         ))}

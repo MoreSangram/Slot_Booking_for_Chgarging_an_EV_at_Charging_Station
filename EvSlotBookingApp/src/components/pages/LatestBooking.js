@@ -61,7 +61,7 @@ export default class BookHistory extends Component {
                             {/* <th>delivery_date</th> */}
                             {/* <th>cid</th> */}
                             <th>payment_mode</th>  
-                            {/* <th S>Operation</th>          */}
+                            <th>Operation</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -74,7 +74,7 @@ export default class BookHistory extends Component {
                                 {/* <td> {obj.cid} </td> */}
                                 <td> {obj.payment_mode} </td>
                                 
-                                {/* <td> <Button  onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td> */}
+                                <td> <Button  onClick={()=>this.props.editCustomer(obj.cid)}>Edit</Button></td>
                              </tr>
 
                         ))}

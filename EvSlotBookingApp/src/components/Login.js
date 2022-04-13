@@ -121,7 +121,7 @@ export default class Login extends React.Component {
                 }  
                 else 
                 {
-                    this.setState({ loginerror: "wrongId/pwd" });
+                    this.setState({ loginerror: "wrong Id/password" });
                 }
      
             }
